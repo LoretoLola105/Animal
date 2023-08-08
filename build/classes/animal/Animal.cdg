@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Animal">
+  <ClassDiagramComponents>
+    <Class name="Animal" package="" visibility="public" xPosition="344.0" yPosition="131.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="alimento" type="String" visibility="private"/>
+        <Field name="edad" type="int" visibility="private"/>
+        <Field name="raza" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="Alimentarse" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Gato" package="" visibility="public" xPosition="622.0" yPosition="438.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="Alimentarse" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Perro" package="" visibility="public" xPosition="94.0" yPosition="438.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="Alimentarse" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Caballo" package="" visibility="public" xPosition="344.0" yPosition="438.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="Alimentarse" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="Caballo" target="Animal"/>
+    <IsRelation name="is" source="Gato" target="Animal"/>
+    <IsRelation name="is" source="Perro" target="Animal"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
